@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Cloning Git') {
             steps {
-                git branch: 'main', url: 'https://github.com/AnjaliRekhate/upGrad-Course_Project.git']]])
+                git branch: 'main', url: 'https://github.com/AnjaliRekhate/upGrad-Course_Project.git'
             }
         }
 
